@@ -1,5 +1,24 @@
 lineas de codigo del primer integrante
-
+Algoritmo seriefibonacci
+	definir serie0, serie1,serie3, ningresado como real;
+	serie0 <-0
+	serie1 <-1
+	Escribir "Este programa fue diseñado para calcular la serie de fibonacci de cualquier numero entero...";
+	escribir"Favor de ingresar el numero a calcular..";
+	leer ningresado;
+	si ningresado<0 Entonces
+		Escribir "El numero ingresado debe ser positivo."
+	sino 
+		para serie3<-1 hasta ningresado Hacer
+			Escribir ,serie0
+			serie3<-serie0 + serie1
+			serie0<-serie1
+			serie1<-serie3
+			serie3<-serie0 + serie
+		FinPara
+	FinSi
+	
+FinAlgoritmo
 Lineas de codigo del segundo integrante
 
 lienas de codigo del tercer integrante
